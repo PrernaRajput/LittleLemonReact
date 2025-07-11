@@ -1,0 +1,43 @@
+.confirmation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 80vh;
+
+  .confirmation-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .tracker {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+
+      .step {
+        padding: 0.8rem 1.2rem;
+        border-radius: 6px;
+        background: #ccc;
+        color: white;
+        font-weight: bold;
+        min-width: 120px;
+
+        &.active {
+          background: #495e57;
+        }
+      }
+    }
+  }
+}

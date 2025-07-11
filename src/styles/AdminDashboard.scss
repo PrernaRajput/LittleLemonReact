@@ -1,0 +1,51 @@
+.admin-dashboard {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+
+    h3 {
+      color: #495e57;
+      margin-bottom: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+
+      th, td {
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f4f4f4;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+
+    th, td {
+      padding: 0.5rem;
+    }
+
+    td {
+      border: none;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}
+

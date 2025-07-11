@@ -1,0 +1,50 @@
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 2rem;
+  text-align: center;
+
+  .footer-content {
+    max-width: 800px;
+    margin: auto;
+
+    .footer-links {
+      margin: 1rem 0;
+
+      a {
+        margin: 0 0.5rem;
+        color: #eee;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .newsletter {
+      margin-top: 1rem;
+
+      input {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: none;
+        margin-right: 0.5rem;
+        width: 200px;
+      }
+
+      button {
+        padding: 0.5rem 1rem;
+        background: #495e57;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background: #364c44;
+        }
+      }
+    }
+  }
+}

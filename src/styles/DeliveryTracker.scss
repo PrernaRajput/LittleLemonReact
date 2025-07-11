@@ -1,0 +1,19 @@
+.delivery-tracker {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+
+  .stage {
+    padding: 0.6rem 1rem;
+    background: #ccc;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.4s;
+
+    &.active {
+      background: #495e57;
+      color: white;
+    }
+  }
+}

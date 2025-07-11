@@ -1,0 +1,42 @@
+.menu-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .menu-filters {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #eee;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.active,
+      &:hover {
+        background: #495e57;
+        color: white;
+      }
+    }
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 600px) {
+    .menu-list {
+      flex-direction: column;
+    }
+  }
+}

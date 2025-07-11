@@ -1,0 +1,39 @@
+.auth-page {
+  max-width: 400px;
+  margin: 3rem auto;
+  text-align: center;
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #495e57;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #364c44;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    button {
+      background: none;
+      border: none;
+      color: #495e57;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
